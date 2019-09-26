@@ -6,11 +6,22 @@ Type the following command to clone the repository
 
 -   cd laravel-aws
 -   copy .env.example to .env
+-   add your configurations in .env file
+
+Install the project dependencies
+
+-   composer install
 
 Generate the application key
 
 -   php artisan key:generate
 
-Install the project dependencies
+Manage permission of stroage folder
 
--   composer install
+-   sudo chmod -R 777 storage/
+
+If you have virtual host or server block configured then type your url to visit the application in the browser if you have not configured then type
+
+-   php artisan:serve
+
+and visit localhost:8000 in your browser
