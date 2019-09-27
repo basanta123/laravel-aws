@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $pages = \DB::table('pages')->get();
+    return view('welcome', compact('pages'));
 });
 
 Route::get('/about', function () {
