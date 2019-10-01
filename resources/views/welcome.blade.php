@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Automated
+                    Laravel
                 </div>
 
                 <div class="links">
