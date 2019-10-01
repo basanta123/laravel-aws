@@ -6,6 +6,7 @@ class DeployController extends Controller
 {
   public function deploy(Request $request)
   {
+      dd($request->all());
      $githubPayload = $request->getContent();
      $githubHash = $request->header('X-Hub-Signature');    
      $localToken = config('app.deploy_secret');
