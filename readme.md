@@ -25,3 +25,7 @@ If you have virtual host or server block configured then type your url to visit 
 -   php artisan:serve
 
 and visit http://localhost:8000 in your browser
+
+Deployment
+
+-   github webhook is used for automated deployment.
