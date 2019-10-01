@@ -3,7 +3,7 @@ cd /var/www/html/laravel-aws
 
 # Turn on maintenance mode
 php artisan down
-
+sudo chown -R www-data
 # Pull the latest changes from the git repository
 # git reset --hard
 # git clean -df
