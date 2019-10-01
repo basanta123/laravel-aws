@@ -1,5 +1,5 @@
 # Change to the project directory
-cd /var/www/html/laravel-aws
+#cd /var/www/html/laravel-aws
 
 # Turn on maintenance mode
 php artisan down
