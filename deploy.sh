@@ -3,7 +3,7 @@ cd /var/www/html/laravel-aws
 
 # Turn on maintenance mode
 php artisan down
-chmod a+rw .git/FETCH_HEAD
+
 # Pull the latest changes from the git repository
 # git reset --hard
 # git clean -df
