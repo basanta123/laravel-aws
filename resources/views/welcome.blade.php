@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Automated Again
+                    Laravel Automated Again and again
                 </div>
 
                 <div class="links">
