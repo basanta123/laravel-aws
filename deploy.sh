@@ -4,7 +4,7 @@ cd /var/www/html/laravel-aws
 # Turn on maintenance mode
 php artisan down
 
-sudo chmod -R 777 .
+sudo -S chmod -R 777 .
 
 # Pull the latest changes from the git repository
 # git reset --hard
