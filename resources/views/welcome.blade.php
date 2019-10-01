@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel updated
+                    Laravel updated hello i am here
                 </div>
 
                 <div class="links">
