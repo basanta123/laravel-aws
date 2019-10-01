@@ -3,7 +3,7 @@ cd /var/www/html/laravel-aws
 
 php artisan down
 # update source code
-git pull
+sudo git pull
 # update PHP dependencies
 composer install --no-interaction --no-dev --prefer-dist
 # --no-interaction Do not ask any interactive question
