@@ -1,4 +1,6 @@
+cd /var/www/html/laravel-aws
 #!/bin/sh# activate maintenance mode
+
 php artisan down
 # update source code
 git pull

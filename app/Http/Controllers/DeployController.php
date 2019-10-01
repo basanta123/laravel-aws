@@ -1,7 +1,7 @@
 <?php 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use Symfony\Component\Process\Processs;
+use Symfony\Component\Process\Process;
 class DeployController extends Controller
 {
   public function deploy(Request $request)
@@ -14,10 +14,12 @@ class DeployController extends Controller
      \Log::info(['github_hash' => $githubHash, 'localHash' => $localHash]);    
     if (hash_equals($githubHash, $localHash)) {
           $root_path = base_path();
-          $process = new Process('cd ' . $root_path . '; ./deploy.sh');
+          $process = new Process('sh /'.$root_path.'/deploy.sh');
+          //$process = new Process('cd ' . $root_path . '; ./deploy.sh');
           $process->run(function ($type, $buffer) {
               echo $buffer;
           });
     }
+
   }
 }
