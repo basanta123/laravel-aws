@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return 'about';
 });
+
+Route::post('deploy', 'DeployController@deploy');
