@@ -4,12 +4,10 @@ cd /var/www/html/laravel-aws
 # Turn on maintenance mode
 php artisan down
 
-sudo -S chmod -R 777 .
-
 # Pull the latest changes from the git repository
 # git reset --hard
 # git clean -df
-git pull origin master
+git pull
 
 # Install/update composer dependecies
 composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
